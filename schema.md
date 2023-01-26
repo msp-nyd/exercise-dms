@@ -6,10 +6,10 @@
 - legacy
 - dm
 
-### Legacy Table:
+#### Legacy Table:
 - legacy.LegacyOrders
 
-### Dimensional Tables:
+#### Dimensional Tables:
 - dm.dimPaymentMethod
 - dm.dimCustomerIdLookup
 - dm.dimCustomers
@@ -18,11 +18,11 @@
 - dm.dimAddress_History
 - dm.dimDate
 
-### Fact tables:
+#### Fact tables:
 - dm.factOrders
 - dm.factOrderDetail
 
-### Views:
+#### Views:
 - dm.v_fact_OrderDetail
 - dm.v_factOrders
 - dm.REPORT_NUMBEROFORDERS_SHIPPED_BY_STATE
