@@ -59,12 +59,12 @@ docker exec -it ctr_postgres psql -U sales_dm_user -d sales_dm -f /sql/05_load_d
 docker exec -it ctr_postgres psql -U sales_dm_user sales_dm
 ```
 
-##### CREATE REPORTS
+##### CREATE LOAD FACT SCHEMA
 ```
 docker exec -it ctr_postgres psql -U sales_dm_user -d sales_dm -f /sql/06_create_load_dimensional_fact_schemas.sql
 ```
 
-##### CREATE LOAD FACT SCHEMA
+##### CREATE REPORTS
 ```
 docker exec -it ctr_postgres psql -U sales_dm_user -d sales_dm -f /sql/reports/01_create_report_numberoforders_shipped_by_state.sql
 docker exec -it ctr_postgres psql -U sales_dm_user -d sales_dm -f /sql/reports/02_create_report_customers_latest_address.sql
