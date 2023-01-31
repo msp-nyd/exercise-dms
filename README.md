@@ -3,7 +3,7 @@
 ### Notes:
 
 - The sql folder contains all the scripts required to apply dimensional model to the legacy text file
-- The shaded background below has commands that need to be executed on the bash terminal
+- The shaded background below has commands that need to be executed on the bash terminal to create the migration pipeline using docker container, it will spin a postgres container and import the file and generate the scema tables and reports
 
 ## Requirement
 - Ubuntu linux VM or EC2 with Ubuntu Image
