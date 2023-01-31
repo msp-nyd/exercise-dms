@@ -1,3 +1,0 @@
-Some cosmetic changes:
-In dm.dimorders table, the column PAYMENT_METHOD_ID is declared as type text, it should be tinyint
-In the ERD fact tables FK needs to be linked to there respective tables

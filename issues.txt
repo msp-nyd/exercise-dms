@@ -1,0 +1,4 @@
+Some cosmetic changes:
+- In dm.dimorders table, the column PAYMENT_METHOD_ID is declared as type text, it should be tinyint
+- In the ERD fact tables FK needs to be linked to there respective tables
+- The address_history table should be just named as address table
