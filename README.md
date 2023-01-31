@@ -1,9 +1,13 @@
 # Migrating legacy denormalized data from CSV file into a dimensional schema 
 
-## Requirement
-- Ubuntu VM or EC2 with Ubuntu Image
-- Refer docker-install.md for Docker & Docker composer install
+### Notes:
 
+- The sql folder contains all the scripts required to apply dimensional model to the legacy text file
+- The shaded background below has commands that need to be executed on the bash terminal
+
+## Requirement
+- Ubuntu linux VM or EC2 with Ubuntu Image
+- Refer docker-install.md for Docker & Docker composer install
 
 ##### Below commands can be used to clean up or recreate postgres container and image
 ```
