@@ -1,4 +1,4 @@
-# Migrating legacy denormalized data from CSV file into a normalized dimensional schema 
+# Migrating legacy denormalized data from CSV file into a dimensional schema 
 
 ## Requirement
 - Ubuntu VM or EC2 with Ubuntu Image
